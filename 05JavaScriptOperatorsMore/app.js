@@ -8,3 +8,7 @@ let total = myFirstNumber+mySecondNumber;
 console.log(800+500/myFirstNumber*total-mySecondNumber)
 console.log(total++)
 console.log(total)
+total+=total
+console.log(total)
+--total
+console.log(--total)
