@@ -12,3 +12,17 @@ total+=total
 console.log(total)
 --total
 console.log(--total)
+var a=10;
+a++
+console.log(a)
+a--
+console.log(a)
+++a
+console.log (a)
+console.log(a++)
+console.log(a)
+console.log(++a)
+console.log(a)
+console.log(--a)
+console.log(a)
+
