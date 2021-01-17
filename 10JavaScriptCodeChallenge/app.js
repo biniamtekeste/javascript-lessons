@@ -6,8 +6,11 @@ if(myTime<6) {
 else if (myTime<12){
     console.log("Good morning!")
 }
-else if(myTime<=22) {
+else if(myTime<=17) {
     console.log("Good afternoon!")
+}
+else if(myTime<=22) {
+    console.log("Good evening!")
 }
 else {
     console.log ("I'm sleeping")
