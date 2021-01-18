@@ -1,6 +1,6 @@
 let name=prompt("Enter a name")
 switch(name){
-    case 'Biniam':
+    case "Biniam:
         console.log(name +" is the best programmer in USA");
         break;
     
