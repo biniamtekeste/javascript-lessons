@@ -19,3 +19,27 @@ let temp=Array.isArray(theList)
 console.log(temp)
 
 console.log(theList.indexOf('Make me first'))
+
+// Playing with Splice
+const listNum=[30,40,50,60,70,80,90,100]
+console.log(listNum)
+console.log(listNum.splice(1,2))
+console.log(listNum)
+console.log(listNum.splice(1,0,40,50))
+console.log(listNum)
+console.log(listNum.splice(1,2,110,120))
+console.log(listNum)
+console.log(listNum.splice(1))
+console.log(listNum)
+
+// Playing with Slice
+listNum.splice(1,0,40,50,60,70,80,90,100,110)
+console.log(listNum)
+console.log(listNum.slice(1,4))
+console.log(listNum)
+console.log(listNum.slice(1))
+
+
+
+
+
