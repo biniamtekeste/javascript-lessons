@@ -1,4 +1,4 @@
-const array1=["a","Bini","Sofi","Meru","Temie",8,23,]
+const array1=["a","B","S",-8,"T",8,23,]
 const array2=[1,8,32,2,67,0,17,9,66,91,56,10,-8,71,]
 let num;
 console.log(array1)
@@ -27,4 +27,16 @@ let found=array1.find(function (n){
     return n===67;
 })
 console.log(found)
+
+// Let's concatinate the two arrays
+const newArray=array1.concat(array2)
+console.log(newArray)
+
+// Let's use of indexOf
+console.log(newArray.indexOf(50))
+if(newArray.indexOf(50)!==0){
+    console.log("Not found")
+}
+
+
 
