@@ -16,3 +16,5 @@ const mixed=[12, -2, 4, 0, -23, 33, -34, 8, 90, -1, -100, 456]
 result=mixed.filter(n=> n<60);
 console.log(result);
 
+result=mixed.filter(n=> n>0)
+console.log(result);
