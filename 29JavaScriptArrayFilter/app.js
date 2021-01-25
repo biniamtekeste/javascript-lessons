@@ -18,3 +18,4 @@ console.log(result);
 
 result=mixed.filter(n=> n>0)
 console.log(result);
+
