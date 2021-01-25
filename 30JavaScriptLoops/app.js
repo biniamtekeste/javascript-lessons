@@ -10,11 +10,11 @@ do{
     console.log('Do While loop count at '+i)
 }while(i<7);
 
-// let y=10;
-// while(y<5){
-//     y++;
-//     console.log('While loop count at '+y) //Will run once even if condition is not true
-// }
+let y=10;
+while(y<5){
+    y++;
+    console.log('While loop count at '+y) //Will run once even if condition is not true
+}
 
 let z=10;
 do{
