@@ -8,3 +8,11 @@ for (let w=0;w<array1.length;w++){
 array1.forEach(function (element, index, array) {
     console.log(element);
 })
+
+array1.forEach(function (element, index, array) {
+    console.log(index);
+})
+
+array1.forEach(function (element, index, array) {
+    console.log(array);
+})
